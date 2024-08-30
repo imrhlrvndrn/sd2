@@ -1,7 +1,3 @@
-# Managed Databases w/ Sequelize ORM
-
-Here’s a sample `README.md` for your repository:
-
 # Express Server with Sequelize & Supabase Starter Template
 
 This repository provides a starter template for building an Express server that connects to a Supabase database using Sequelize ORM. This template is designed to help students get started quickly with building and extending the server by providing a pre-configured setup, including migrations, seeders, and an empty user model.
@@ -30,14 +26,14 @@ cd repo-name
 ├── config
 │   └── config.js        # Sequelize configuration file
 ├── migrations
-│   └── <timestamp>-create-user.js  # Migration file for the User model
+│   └── <timestamp>-create-user.js  # Migration file for the user model
 ├── models
 │   ├── index.js           # Sequelize initialization file
 │   └── user.js            # Empty User model (to be defined by students)
 ├── seeders
-│   └── <timestamp>-user-seeder.js  # Seeder file for the User model
+│   └── <timestamp>-user-seeder.js  # Seeder file for the user model
 ├── lib
-│   └── index.js           # Where you will instantiate your models and add custom logic
+│   └── index.js           # Where you will instantiate sequelize
 ├── .env.example           # Example environment variables file
 ├── index.js               # Entry point of the Express server
 └── package.json           # Node.js dependencies and scripts
@@ -45,7 +41,7 @@ cd repo-name
 
 ## Setup Instructions
 
-### 1. Install Dependencies
+### Install Dependencies
 
 Before you start, make sure you have Node.js and npm installed. You can install the project dependencies by running:
 
