@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/b6c1fdab-4178-4cef-b9e9-7f60e2d39f3e)
+
+
 # Managed Databases w/ Sequelize ORM
 
 The `sequelize.sync({ force: true })` we have been using for the BD5 exercises can be used to create soft migrations. But it is recommended that you use the `sequelize-cli` to create version controlled migrations files.
